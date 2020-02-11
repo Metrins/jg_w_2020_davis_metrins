@@ -1,7 +1,6 @@
 package lv.Javaguru.homework.lesson4;
 
 public class SignComparatorTest {
-    SignComparator signComparator = new SignComparator();
 
     public static int findNumber() {
         int number = 123;
