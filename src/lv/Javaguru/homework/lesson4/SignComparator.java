@@ -4,7 +4,7 @@ import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
 
 public class SignComparator {
 
-    public static void printToConsole() {
+    public static void compare() {
 
         int newNumber = SignComparatorTest.findNumber();
         int mainNumber = 0;
@@ -18,5 +18,6 @@ public class SignComparator {
         if (newNumber > mainNumber) {
             System.out.println("Number is positive");
         }
+
     }
 }

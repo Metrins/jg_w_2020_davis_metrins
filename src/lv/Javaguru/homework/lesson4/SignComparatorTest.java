@@ -10,7 +10,7 @@ public class SignComparatorTest {
 
     public static void main(String[] args) {
         System.out.print(findNumber() + ": ");
-        SignComparator.printToConsole();
+        SignComparator.compare();
 
         }
 }
