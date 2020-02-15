@@ -24,5 +24,10 @@ public class MathOperations {
 
         // kā panākt, lai dalāmais un rezultāts parādās ar komatiem, ja ir decimālskaitlis,
         // bet bez komata, ja nav decimālskaitlis?
+
+        //var izmantot casting, bet jāņem vērā ka tad zaudēsi info par to kas ir aiz komata
+        //šādi daŗīt ir bīsatami un nepareizi, bet pagaidām mēs vēl citādi nemākam.
+        //Tā kā pagaidām tas der
+        System.out.println((int)addition);
     }
 }

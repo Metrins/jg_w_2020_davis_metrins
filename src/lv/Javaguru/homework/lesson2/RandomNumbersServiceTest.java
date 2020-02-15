@@ -2,6 +2,7 @@ package lv.Javaguru.homework.lesson2;
 
 import java.util.Random;
 
+//Ok
 public class RandomNumbersServiceTest {
     public static void main(String[] args) {
 
@@ -21,7 +22,5 @@ public class RandomNumbersServiceTest {
                             + randomNumberTwo + " + "
                             + randomNumberThree + " = "
                             + sum);
-
     }
-
 }
