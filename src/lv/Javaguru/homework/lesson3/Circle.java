@@ -1,9 +1,10 @@
 package lv.Javaguru.homework.lesson3;
 
+//neatstāj komentārus kodā - īpaši latviešu valodā
 public class Circle {
     // PR kvadrātā
     // pi 3.14159265
-    double radius;
+    double radius;  //trūkst private
 
     public double getRadius() {
         return radius;

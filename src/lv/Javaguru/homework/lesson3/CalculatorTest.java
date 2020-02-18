@@ -1,6 +1,6 @@
 package lv.Javaguru.homework.lesson3;
 
-import sun.rmi.rmic.Generator;
+//import sun.rmi.rmic.Generator;
 
 import java.util.Random;
 

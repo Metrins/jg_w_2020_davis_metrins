@@ -1,6 +1,6 @@
 package lv.Javaguru.homework.lesson3;
 
-import sun.management.snmp.jvmmib.JVM_MANAGEMENT_MIBOidTable;
+//import sun.management.snmp.jvmmib.JVM_MANAGEMENT_MIBOidTable;
 
 public class ClassWithObjectsTest {
     public static void main(String[] args) {

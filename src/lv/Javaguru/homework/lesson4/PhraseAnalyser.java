@@ -1,6 +1,6 @@
 package lv.Javaguru.homework.lesson4;
 
-import com.sun.tools.corba.se.idl.constExpr.And;
+//import com.sun.tools.corba.se.idl.constExpr.And;
 
 public class PhraseAnalyser {
 

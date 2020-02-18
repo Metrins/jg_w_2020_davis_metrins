@@ -1,9 +1,10 @@
 package lv.Javaguru.homework.lesson3;
 
+//lieto "ctrl + alt + l"
 public class ProductTest {
     public static void main(String[] args) {
 
-        Product Product = new Product();
+        Product Product = new Product(); //mainīgais rakstams ar mazo burtu
 
                 Product.setName("milk");
                 Product.setRegularPrice(0.8);
@@ -20,6 +21,7 @@ public class ProductTest {
         calculateActualPrice(Product);
             }
 
+            //šai loģikai ir jābūt produkta klasē
     public static void calculateActualPrice (Product product) {
     System.out.println(product.getRegularPrice() - (product.getRegularPrice() * product.getDiscount() / 100) + " EUR");
 

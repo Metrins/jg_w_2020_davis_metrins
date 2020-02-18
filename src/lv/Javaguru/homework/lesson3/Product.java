@@ -1,5 +1,6 @@
 package lv.Javaguru.homework.lesson3;
 
+//izmanto "ctrl + alt + l"
 public class Product {
 
     private String name;
@@ -12,7 +13,14 @@ public class Product {
     public void setRegularPrice(double regularPrice) { this.regularPrice = regularPrice; }
     public double getDiscount() { return discount; }
     public void setDiscount(double discount) { this.discount = discount; }
+
+    //šeit static nav vajadzīgs
+    //atgriežamajam tipam ir jābut double
     //public static void calculateActualPrice() { System.out.println(regularPrice - (regularPrice * discount / 100));
+
+    public double calculateActualPrice() {
+        return regularPrice - (regularPrice * discount / 100);
+    }
 
 }
 
